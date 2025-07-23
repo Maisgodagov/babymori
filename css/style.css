@@ -6,12 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 :root {
-  --marquee-speed: 36s; /* скорость (меньше — быстрее) */
-  --pill-bg: rgba(255, 255, 255, 0.03);
-  --pill-br: 12px;
-  --pill-bd: 1px solid rgba(255, 255, 255, 0.08);
-  --pill-pad: 6px 22px;
-  --pill-color: #cfcfcf;
+  --marquee-speed: 36s;
 }
 @font-face {
   font-family: "Helvetica Custom";
@@ -567,6 +562,10 @@ body {
   left: 50%;
 }
 
+.roll-section {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 .marquee {
   position: relative;
   overflow: hidden;
