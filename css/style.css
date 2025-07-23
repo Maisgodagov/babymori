@@ -71,17 +71,27 @@ body {
 
 /* header */
 .header {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 2;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 520px;
+  border-radius: 32px;
+  margin-top: 10px;
+  backdrop-filter: blur(8px);
 }
+
 .nav_list {
   list-style: none;
   gap: 49px;
   margin: 0;
-  margin-top: 24px;
   z-index: 3;
+  padding: 12px 0;
 }
 .nav-item {
   cursor: pointer;
@@ -620,7 +630,7 @@ body {
 /* Roadmap */
 .roadmap {
   padding-top: 167px;
-  padding-bottom: 592px;
+  padding-bottom: 180px;
   position: relative;
   background-image: url(../assets/img/bg12.png), url(../assets/img/Group10.png),
     url(../assets/img/Group11.png), url(../assets/img/Group12.png),
@@ -647,7 +657,7 @@ body {
   width: 100%;
   background-image: url(../assets/img/bg11.png);
   background-repeat: no-repeat;
-  top: 750px;
+  /* top: 750px; */
   left: -70px;
 }
 
@@ -1046,7 +1056,7 @@ body {
 /* CONTACTS */
 
 .contacts {
-  padding-bottom: 256px;
+  padding-bottom: 60px;
 }
 .contacts-wrapper {
   display: flex;
@@ -1067,15 +1077,18 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 68px;
+  z-index: 2;
 }
 
 .contact-item {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-color: #070707;
-  border-radius: 15px;
+  border-radius: 18px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .contact-btn {
@@ -1088,4 +1101,14 @@ body {
   color: #fff;
   font-size: 16px;
   font-family: "Inter Medium", Arial, sans-serif;
+  cursor: pointer;
+  z-index: 3;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-icon {
+  width: 60px;
+  height: 60px;
 }
