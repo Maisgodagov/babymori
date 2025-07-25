@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
-  /* user-select: none; */
 }
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --marquee-speed: 36s;
@@ -51,17 +52,21 @@ body {
   padding: 0;
   min-height: 100vh;
   background: #171719;
+  width: 100%;
 }
 .flex {
   display: flex;
 }
 .container {
-  width: 1124px;
+  max-width: 1124px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 .section {
+  width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 /* header */
@@ -219,7 +224,8 @@ body {
 
 .hero-item {
   list-style: none;
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
   height: 202px;
   border-radius: 12px;
   padding: 32px;
@@ -570,6 +576,7 @@ body {
   height: 72px;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-bottom: 80px;
 }
 .nanotech-btn {
   background: radial-gradient(

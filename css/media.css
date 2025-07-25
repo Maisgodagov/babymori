@@ -1,0 +1,560 @@
+@media (max-width: 1255px) {
+  .roadmap::after {
+    left: -80px;
+  }
+}
+
+@media (max-width: 1235px) {
+  .roadmap {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 1215px) {
+  .roadmap {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .roadmap-item-connect::before {
+    width: 1055px;
+    bottom: -114px;
+    right: 25px;
+  }
+  .roadmap-item-connect::after {
+    bottom: -114px;
+    right: 24px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 554px;
+    bottom: -114px;
+    right: 25px;
+  }
+  .roadmap-item-connect-last::after {
+    bottom: -114px;
+    right: 23px;
+  }
+  .roadmap {
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 1165px) {
+  .how-to-buy-item {
+    width: 520px;
+  }
+  .hero {
+    background-position: left top, right bottom, 40% 0, 85% 45%, 5% 0, 100% 0,
+      3% 0, 0 0;
+  }
+}
+@media (max-width: 1135px) {
+  .roadmap-item-connect::before {
+    width: 1055px;
+    bottom: -114px;
+    right: 20px;
+  }
+  .roadmap-item-connect::after {
+    bottom: -114px;
+    right: 20px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 554px;
+    bottom: -114px;
+    right: 20px;
+  }
+  .roadmap-item-connect-last::after {
+    bottom: -114px;
+    right: 20px;
+  }
+}
+@media (max-width: 1125px) {
+  .roadmap-item-connect::before {
+    right: 16px;
+  }
+  .roadmap-item-connect::after {
+    right: 16px;
+  }
+  .roadmap-item-connect-last::before {
+    right: 16px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 16px;
+  }
+  .how-to-buy-item {
+    width: 500px;
+  }
+}
+@media (max-width: 1125px) {
+  .roadmap-item-connect::before {
+    right: 16px;
+  }
+  .roadmap-item-connect::after {
+    right: 16px;
+  }
+  .roadmap-item-connect-last::before {
+    right: 16px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 16px;
+  }
+  .how-to-buy-item {
+    width: 500px;
+  }
+}
+@media (max-width: 1120px) {
+  .roadmap-item-connect::before {
+    right: 30px;
+    width: 990px;
+  }
+  .roadmap-item-connect::after {
+    right: 30px;
+  }
+  .roadmap-item-connect-last::before {
+    right: 30px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 30px;
+  }
+
+  .roadmap-item-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 480px;
+    height: 1px;
+    background-color: #ffffffd2;
+    bottom: -60px;
+    left: -20px;
+  }
+  .roadmap {
+    padding-left: 70px;
+  }
+  .container {
+    max-width: 1020px;
+  }
+  .hero-list {
+    gap: 18px;
+  }
+  .hero-item {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1092px) {
+  .roadmap {
+    padding-left: 50px;
+    padding-top: 120px;
+  }
+  .roadmap-item-connect-last::before {
+    right: 30px;
+    width: 500px;
+  }
+  .hero {
+    padding-bottom: 20px;
+  }
+  .how-to-buy-item {
+    width: 480px;
+    font-size: 22px;
+  }
+  .how-to-buy-list {
+    width: unset;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero-title {
+    font-size: 56px;
+  }
+  .how-to-buy-title {
+    font-size: 50px;
+  }
+  .roadmap-title {
+    font-size: 56px;
+  }
+  .roadmap {
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 1065px) {
+  .roadmap-item-wrapper::after {
+    width: 452px;
+  }
+  .container {
+    max-width: 965px;
+  }
+  .who-we-are-left {
+    padding-left: 24px;
+    padding-top: 72px;
+    padding-right: 61px;
+    padding-bottom: 72px;
+    height: unset;
+  }
+  .hero-title {
+    font-size: 54;
+  }
+  .who-we-are {
+    padding-top: 30px;
+  }
+  .who-we-are-title {
+    font-size: 50px;
+  }
+  .hero-item {
+    padding: 18px;
+  }
+  .who-we-are-item {
+    padding: 15px 48px 15px 16px;
+    height: unset;
+    font-size: 19px;
+  }
+  .base-btn {
+    width: 242px;
+    height: 68px;
+  }
+  .how-to-buy-title {
+    font-size: 46px;
+  }
+  .how-to-buy-item-num {
+    height: 70px;
+    width: 70px;
+  }
+  .how-to-buy-item {
+    height: 110px;
+    padding-left: 105px;
+  }
+  .how-to-but-item-middle::after {
+    top: 117px;
+  }
+  .roadmap-item-connect::before {
+    right: 30px;
+    width: 935px;
+  }
+  .roadmap-item-title {
+    font-size: 26px;
+  }
+  .roadmap-item-bullet {
+    font-size: 19px;
+  }
+  .roadmap-item-bullet-1::before {
+    bottom: -325px;
+  }
+  .roadmap-item-bullet-2::before {
+    bottom: -252px;
+  }
+  .roadmap-item-bullet-3::before {
+    bottom: -179px;
+  }
+  .roadmap-item-bullet-4::before {
+    bottom: -107px;
+  }
+  .roadmap-item-bullet-1::after {
+    height: 265px;
+  }
+  .roadmap-item-bullet-2::after {
+    height: 192px;
+  }
+  .roadmap-item-bullet-3::after {
+    height: 129px;
+  }
+  .roadmap-item-bullet-4::after {
+    height: 66px;
+  }
+}
+@media (max-width: 1025px) {
+  .hero-btn {
+    margin-bottom: 50px;
+  }
+  .who-we-are-left {
+    padding-left: 24px;
+    padding-top: 52px;
+    padding-right: 61px;
+    padding-bottom: 52px;
+    height: unset;
+  }
+  .who-we-are-title {
+    font-size: 46px;
+  }
+  .who-we-are-item {
+    font-size: 16px;
+  }
+  .how-to-buy-title {
+    font-size: 42px;
+  }
+  .how-to-buy-item {
+    width: 440px;
+  }
+  .roadmap {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1015px) {
+  .container {
+    max-width: 930px;
+  }
+  .hero-title {
+    font-size: 50px;
+    max-width: 650px;
+    line-height: 50px;
+  }
+  .nav_list {
+    gap: 40px;
+  }
+  .hero-list {
+    gap: 15px;
+  }
+  .hero-icon {
+    margin-bottom: 12px;
+  }
+  .hero-item-title {
+    margin-bottom: 10px;
+  }
+  .hero-item {
+    list-style: none;
+    max-width: 280px;
+    width: 100%;
+    padding: 12px;
+    height: unset;
+  }
+  .who-we-are-title {
+    font-size: 42px;
+  }
+  .base-btn {
+    width: 232px;
+    height: 60px;
+  }
+  .how-to-buy {
+    background-size: 25%, 40%, auto, auto, auto, auto, auto, auto, auto, auto,
+      auto;
+  }
+  .how-to-buy-title {
+    margin-bottom: 40px;
+  }
+  .how-to-buy-item-num {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    left: 12px;
+    top: 12px;
+  }
+  .how-to-buy-item {
+    height: 84px;
+    padding-left: 80px;
+  }
+  .how-to-but-item-middle::after {
+    top: 92px;
+  }
+  .how-to-buy-list {
+    margin-bottom: 90px;
+  }
+  .roadmap-title {
+    font-size: 52px;
+  }
+  .roadmap-item-title {
+    margin-bottom: 35px;
+  }
+  .roadmap-item-bullet {
+    margin-bottom: 22px;
+  }
+  .roadmap-item::after {
+    height: 335px;
+  }
+
+  .roadmap-item::before {
+    bottom: 35px;
+  }
+  .roadmap-item-wrapper::after {
+    bottom: -35px;
+  }
+  .roadmap-item-bullet-1::after {
+    height: 265px;
+    top: 65px;
+  }
+  .roadmap-item-bullet-1::before {
+    bottom: -311px;
+  }
+  .roadmap-item-bullet-2::before {
+    bottom: -245px;
+  }
+  .roadmap-item-bullet-2::after {
+    height: 184px;
+  }
+  .roadmap-item-bullet-4::before {
+    bottom: -113px;
+  }
+  .roadmap-item-bullet-4::after {
+    height: 73px;
+  }
+  .roadmap-item-bullet-1 {
+    margin-left: 15px;
+    position: relative;
+  }
+  .roadmap-item-bullet-2 {
+    margin-left: 65px;
+    position: relative;
+  }
+  .roadmap-item-bullet-3 {
+    margin-left: 115px;
+    position: relative;
+  }
+  .roadmap-item-bullet-4 {
+    margin-left: 165px;
+    position: relative;
+  }
+  .roadmap-item-wrapper::after {
+    width: 434px;
+  }
+  .roadmap-item-connect::after {
+    bottom: -89px;
+  }
+  .roadmap-item-connect::before {
+    right: 30px;
+    width: 899px;
+    bottom: -89px;
+  }
+  .roadmap-item {
+    margin-bottom: 24px;
+  }
+  .roadmap-item-connect-last::after {
+    bottom: -90px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 455px;
+    bottom: -91px;
+  }
+  .contacts-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 975px) {
+  .link-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .contact-item {
+    width: 50px;
+    height: 50px;
+  }
+  .contacts-list {
+    gap: 12px;
+  }
+  .contacts-title {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .container {
+    max-width: 800px;
+  }
+  .pill {
+    width: 180px;
+    height: 45px;
+  }
+  .roll-section {
+    padding: 2px;
+  }
+  .base-btn {
+    margin-top: 20px;
+    margin-bottom: 55px;
+  }
+  .roadmap {
+    padding-left: 60px;
+  }
+  .roadmap-list {
+    padding: 0;
+  }
+  .roadmap-item-title {
+    margin-left: -15px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -2.89px;
+  }
+  .roadmap-item-connect::after {
+    right: -14px;
+  }
+
+  .roadmap-item-bullet-1 {
+    margin-left: 16;
+    position: relative;
+  }
+  .roadmap-item-bullet-2 {
+    margin-left: 52px;
+  }
+  .roadmap-item-bullet-3 {
+    margin-left: 90px;
+    position: relative;
+  }
+  .roadmap-item-bullet-4 {
+    margin-left: 129px;
+    position: relative;
+  }
+
+  .roadmap-item::after {
+    left: -20px;
+  }
+  .roadmap-item::before {
+    left: -40px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 370px;
+  }
+  .roadmap-item-connect::after {
+    right: 39px;
+  }
+  .roadmap-item-connect::before {
+    right: 40px;
+    width: 780px;
+    bottom: -89px;
+  }
+  .roadmap-item-title-glow {
+    font-size: 25px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 40px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 370px;
+    bottom: -90px;
+    right: 40px;
+  }
+  .hero-item {
+    max-width: 240px;
+  }
+  .who-we-are-left {
+    padding-left: 20px;
+    padding-top: 42px;
+    padding-right: 31px;
+    padding-bottom: 42px;
+    height: 320px;
+    width: 100%;
+  }
+  .who-we-are-title {
+    font-size: 38px;
+  }
+  .who-we-are-descr {
+    font-size: 17px;
+  }
+  .who-we-are-item {
+    padding: 12px;
+    height: unset;
+    font-size: 18px;
+  }
+  .roadmap-item-wrapper::after {
+    left: -10px;
+  }
+}
+@media (max-width: 890px) {
+  .hero-title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 860px) {
+}
