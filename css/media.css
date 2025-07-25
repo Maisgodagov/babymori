@@ -479,7 +479,7 @@
   }
 
   .roadmap-item-bullet-1 {
-    margin-left: 16;
+    margin-left: 16px;
     position: relative;
   }
   .roadmap-item-bullet-2 {
@@ -557,4 +557,398 @@
   }
 }
 @media (max-width: 860px) {
+  .container {
+    max-width: 700px;
+  }
+  .hero-descr {
+    max-width: 410px;
+  }
+  .hero-title {
+    font-size: 42px;
+  }
+  .who-we-are-item {
+    padding: 13px 12px 12px 12px;
+    height: unset;
+    font-size: 16px;
+  }
+  .base-btn {
+    width: 212px;
+    height: 50px;
+    font-size: 22px;
+  }
+  .how-to-buy-title {
+    font-size: 39px;
+  }
+  .roadmap-item-title {
+    margin-left: -15px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -2.19px;
+  }
+  .roadmap-item-bullet {
+    font-size: 18px;
+    max-width: 330px;
+    letter-spacing: -1.5px;
+  }
+  .roadmap-item-bullet-2::before {
+    bottom: -247px;
+  }
+  .roadmap-item-bullet-3::before {
+    bottom: -184px;
+  }
+  .roadmap-item-bullet-4::before {
+    bottom: -120px;
+  }
+  .roadmap-item-connect::after {
+    right: -11px;
+  }
+  .roadmap-item-connect::before {
+    right: -10px;
+    width: 732px;
+    bottom: -89px;
+  }
+  .roadmap-item-connect-last::after {
+    right: -10px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 370px;
+    bottom: -90px;
+    right: -9px;
+  }
+  .roadmap-item-bullet-1 {
+    margin-left: 10px;
+    position: relative;
+  }
+  .roadmap-item-bullet-2 {
+    margin-left: 42px;
+  }
+  .roadmap-item-bullet-3 {
+    margin-left: 74px;
+    position: relative;
+  }
+  .roadmap-item-bullet-4 {
+    margin-left: 106px;
+    position: relative;
+  }
+}
+@media (max-width: 790px) {
+  .roadmap-item-connect::after {
+    right: 5px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 354px;
+  }
+  .roadmap-item-connect::before {
+    right: 6px;
+    width: 714px;
+    bottom: -89px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 6px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 356px;
+    bottom: -90px;
+    right: 7px;
+  }
+  .roadmap-title {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 560px;
+  }
+  .nav_list {
+    gap: 30px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-title {
+    max-width: 354px;
+    line-height: 43px;
+  }
+  .hero-descr {
+    max-width: 340px;
+  }
+  .hero {
+    background-size: 25%, 35%, auto, auto, auto, auto, auto, auto;
+  }
+  .hero-list {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero-item-wrapper {
+    position: relative;
+  }
+  .hero-icon {
+    position: absolute;
+    top: 35px;
+  }
+  .hero-item {
+    max-width: 500px;
+  }
+  .hero-item-descr {
+    min-width: 500px;
+    padding-left: 40px;
+  }
+  .hero-item-title {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .hero-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .who-we-are-wrapper {
+    flex-direction: column;
+  }
+  .who-we-are-title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .who-we-are-left {
+    height: 240px;
+    margin-bottom: 0;
+  }
+  .who-we-are-right {
+    width: 100%;
+    max-width: 600px;
+  }
+  .who-we-are-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .who-we-are-item {
+    width: 48%;
+  }
+  .how-to-buy-item-num {
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    left: 8px;
+    top: 8px;
+    border-radius: 12px;
+  }
+  .how-to-buy-item {
+    height: 62px;
+    padding-left: 60px;
+  }
+  .how-to-buy-item {
+    max-width: 370px;
+    width: 480px;
+    font-size: 19px;
+  }
+  .pill {
+    width: 167px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .roadmap-title {
+    font-size: 40px;
+  }
+  .how-to-but-item-middle::after {
+    top: 70px;
+  }
+  .roadmap-list {
+    flex-direction: column;
+  }
+  .roadmap-item-title {
+    max-width: 500px;
+  }
+  .roadmap-item {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 6px;
+  }
+  .roadmap-item::after {
+    height: 275px;
+  }
+  .roadmap-item::before {
+    bottom: 14px;
+  }
+  .roadmap-item-bullet {
+    max-width: 500px;
+    width: 100%;
+    min-height: 40px;
+  }
+  .roadmap-item-wrapper::after {
+    bottom: 30px;
+  }
+  .roadmap-item-bullet-1::before {
+    bottom: -247px;
+  }
+  .roadmap-item-bullet-1::after {
+    height: 200px;
+    top: 65px;
+  }
+  .roadmap-item-bullet-2::before {
+    bottom: -186px;
+  }
+  .roadmap-item-bullet-2::after {
+    height: 122px;
+  }
+  .roadmap-item-bullet-3::before {
+    bottom: -123px;
+  }
+  .roadmap-item-bullet-3::after {
+    height: 90px;
+  }
+  .roadmap-item-bullet-4::before {
+    bottom: -60px;
+  }
+  .roadmap-item-bullet-4::after {
+    height: 36px;
+  }
+  .roadmap-item-bullet-1 {
+    margin-left: 30px;
+    position: relative;
+  }
+  .roadmap-item-bullet-2 {
+    margin-left: 78px;
+  }
+  .roadmap-item-bullet-3 {
+    margin-left: 125px;
+    position: relative;
+  }
+  .roadmap-item-bullet-4 {
+    margin-left: 172px;
+    position: relative;
+  }
+  .roadmap-item-wrapper::after {
+    width: 500px;
+  }
+  .roadmap-item-connect2::before {
+    content: "";
+    position: absolute;
+    width: 291px;
+    height: 1px;
+    background-color: #ffffffc5;
+    bottom: -25px;
+    right: 30px;
+  }
+  .roadmap-item-connect2::after {
+    content: "";
+    position: absolute;
+    height: 55px;
+    width: 1px;
+    background-color: #ffffffc5;
+    bottom: -25px;
+    right: 30px;
+  }
+  .roadmap-item-connect::after {
+    right: 30px;
+    bottom: -25px;
+  }
+  .roadmap-item-connect::before {
+    right: 30px;
+    width: 290px;
+    bottom: -25px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 30px;
+    bottom: -25px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 109px;
+    bottom: -25px;
+    right: 30px;
+  }
+  .beyond-roadmap-item-right::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    left: -105px;
+  }
+  .beyond-roadmap-item-left::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    left: 256px;
+    border-radius: 50%;
+  }
+  .beyond-roadmap-item-left::after {
+    content: "";
+    position: absolute;
+    left: 197px;
+    top: 10px;
+    width: 58px;
+    height: 1px;
+    background: linear-gradient(
+      to left,
+      rgba(153, 153, 153, 0.8) 0%,
+      rgba(255, 255, 255, 0.25) 40%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .beyond-roadmap-item-right::after {
+    content: "";
+    position: absolute;
+    left: -85px;
+    top: 10px;
+    width: 95px;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      rgba(153, 153, 153, 0.8) 0%,
+      rgba(255, 255, 255, 0.25) 40%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .beyond-roadmap-item-right {
+    margin-left: 360px;
+    position: relative;
+  }
+  .beyond-roadmap {
+    gap: 11px;
+  }
+  .contacts-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 700px) {
+  .hero-item-descr {
+    min-width: 470px;
+    padding-left: 40px;
+  }
+  .beyond-roadmap {
+    gap: 11px;
+    margin-left: -30px;
+  }
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 370px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 80px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 57px;
+    z-index: 2;
+  }
+  .beyond-roadmap-item-right {
+    margin-left: 360px;
+    position: relative;
+    max-width: 205px;
+  }
 }
