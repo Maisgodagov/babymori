@@ -952,3 +952,424 @@
     max-width: 205px;
   }
 }
+@media (max-width: 620px) {
+  .roadmap::after {
+    display: none;
+  }
+  .roadmap::before {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 500px;
+    padding: 0 5px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 460px;
+  }
+  .beyond-roadmap-item-right {
+    margin-left: 262px;
+    position: relative;
+    max-width: 205px;
+  }
+  .beyond-roadmap-item-right::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    left: -67px;
+  }
+  .beyond-roadmap-item-left::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    left: 195px;
+    border-radius: 50%;
+  }
+  .beyond-roadmap-item-right::after {
+    content: "";
+    position: absolute;
+    left: -47px;
+    top: 10px;
+    width: 58px;
+    height: 1px;
+  }
+  .beyond-roadmap-item-left::after {
+    content: "";
+    position: absolute;
+    left: 136px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 73px;
+    bottom: -25px;
+    right: 30px;
+  }
+  .beyond-roadmap {
+    font-size: 18px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    max-width: 400px;
+    padding: 0 10px;
+  }
+  .header {
+    max-width: 380px;
+  }
+  .nav_list {
+    gap: 20px;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .hero-title {
+    max-width: 354px;
+    line-height: 35px;
+    font-size: 39px;
+  }
+  .hero-descr {
+    margin-bottom: 35px;
+  }
+  .hero-item-descr {
+    min-width: 350px;
+    padding-left: 40px;
+    min-height: 60px;
+  }
+  .hero-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .who-we-are-left {
+    padding-left: 20px;
+    padding-top: 26px;
+    padding-right: 20px;
+    padding-bottom: 42px;
+    height: 210px;
+  }
+  .who-we-are-title {
+    font-size: 34px;
+  }
+  .who-we-are-descr {
+    font-size: 16px;
+  }
+  .how-to-buy-title {
+    font-size: 35px;
+  }
+  .how-to-buy-item-num {
+    height: 35px;
+    width: 35px;
+    font-size: 16px;
+    left: 6px;
+    top: 6px;
+    border-radius: 14px;
+  }
+  .how-to-buy-item {
+    height: 48px;
+    padding-left: 45px;
+    max-width: 350px;
+  }
+  .how-to-buy-list {
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  .how-to-but-item-middle::before {
+    position: absolute;
+    content: "";
+    height: 42px;
+    width: 3px;
+    background-image: url(../assets/img/Line1.png);
+    top: -38px;
+    left: 50%;
+  }
+  .how-to-but-item-middle::after {
+    top: 52px;
+    height: 43px;
+    width: 3px;
+  }
+  .roadmap {
+    padding-left: 24px;
+  }
+  .roadmap-title {
+    font-size: 35px;
+    margin-left: -24px;
+    margin-bottom: 40px;
+  }
+  .pill {
+    width: 134px;
+    height: 33px;
+    font-size: 16px;
+  }
+  .roadmap-item-bullet-1 {
+    margin-left: 18px;
+    position: relative;
+  }
+
+  .roadmap-item-bullet-2 {
+    margin-left: 59px;
+  }
+  .roadmap-item-bullet-3 {
+    margin-left: 100px;
+    position: relative;
+  }
+  .roadmap-item-bullet-4 {
+    margin-left: 140px;
+    position: relative;
+  }
+  .roadmap-item-bullet {
+    max-width: 320px;
+    width: 100%;
+    min-height: 40px;
+  }
+  .roadmap-item-title {
+    margin-bottom: 20px;
+  }
+  .roadmap-item-wrapper::after {
+    bottom: 41px;
+  }
+  .roadmap-item-bullet-1::before {
+    bottom: -250px;
+  }
+  .roadmap-item::before {
+    bottom: 24px;
+  }
+  .roadmap-item::after {
+    height: 257px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 340px;
+  }
+  .roadmap-item-connect2::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 1px;
+    background-color: #ffffffc5;
+    bottom: 1px;
+    right: 6px;
+  }
+  .roadmap-item {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: -20px;
+  }
+  .roadmap-item-connect2::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 1px;
+    background-color: #ffffffc5;
+    bottom: 1px;
+    right: 6px;
+  }
+  .roadmap-item-connect::after {
+    right: 5px;
+    bottom: 2px;
+    height: 40px;
+  }
+  .roadmap-item-connect::before {
+    right: 5px;
+    width: 180px;
+    bottom: 2px;
+  }
+  .roadmap-item-connect-last::after {
+    right: 5px;
+    bottom: 2px;
+    height: 40px;
+  }
+  .roadmap-item-connect-last::before {
+    width: 40px;
+    bottom: 2px;
+    right: 6px;
+  }
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 395px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 100px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 77px;
+    z-index: 2;
+  }
+  .beyond-roadmap-item-right {
+    margin-left: 243px;
+    position: relative;
+    max-width: 205px;
+  }
+  .beyond-roadmap-item-left {
+    position: relative;
+    height: 46px;
+    max-width: 165px;
+  }
+  .beyond-roadmap-item-left::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    left: 175px;
+    border-radius: 50%;
+  }
+  .beyond-roadmap-item-left::after {
+    content: "";
+    position: absolute;
+    left: 116px;
+  }
+  .contacts-title {
+    font-size: 33px;
+  }
+  .contacts-list {
+    gap: 12px;
+    flex-wrap: wrap;
+    max-width: 236px;
+    margin-bottom: 50px;
+  }
+  .contact-btn {
+    background-color: #060606;
+    border: none;
+    border: 1px solid #ffffff42;
+    border-radius: 15px;
+    width: 185px;
+    height: 50px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 364px;
+  }
+
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 395px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 88px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 66px;
+    z-index: 2;
+  }
+}
+@media (max-width: 425px) {
+  .roadmap-item-wrapper::after {
+    width: 359px;
+  }
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 395px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 91px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 68px;
+    z-index: 2;
+  }
+  .container {
+    max-width: 360px;
+    padding: 0 4px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 348px;
+  }
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 395px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 97px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 74px;
+    z-index: 2;
+  }
+}
+@media (max-width: 400px) {
+  .roadmap {
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 391px) {
+  .container {
+    max-width: 340px;
+    padding: 0 4px;
+  }
+  .roadmap-item-wrapper::after {
+    width: 328px;
+  }
+  .roadmap-item-title {
+    margin-left: -15px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -2.19px;
+  }
+  .beyond-roadmap-title::after {
+    content: "";
+    width: 1px;
+    height: 395px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: 106px;
+  }
+  .beyond-roadmap-title::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url(../assets/img/arrow.png);
+    background-size: cover;
+    border-radius: 50%;
+    top: 55px;
+    left: 84px;
+    z-index: 2;
+  }
+}
