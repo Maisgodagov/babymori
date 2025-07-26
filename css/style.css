@@ -6,6 +6,12 @@ html {
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  -webkit-text-size-adjust: none !important;
+  -ms-text-size-adjust: none !important;
+  text-size-adjust: none !important;
+}
 :root {
   --marquee-speed: 36s;
 }
